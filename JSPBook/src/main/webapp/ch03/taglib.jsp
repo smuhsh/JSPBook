@@ -25,11 +25,11 @@
 
 <body>
 
-<c:forEach var="k" begin="1" end="10" step="1">
+	<c:forEach var="k" begin="1" end="10" step="1">
 
-<c:out value="${k}" />
+		<c:out value="${k}" />
 
-</c:forEach>
+	</c:forEach>
 
 </body>
 

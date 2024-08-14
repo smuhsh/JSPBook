@@ -18,5 +18,6 @@
 	<classpathentry kind="lib" path="C:/tag/taglibs-standard-impl-1.2.5.jar"/>
 	<classpathentry kind="lib" path="C:/tag/taglibs-standard-jstlel-1.2.5.jar"/>
 	<classpathentry kind="lib" path="C:/tag/taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/JDBC/JDBC/lib/ojdbc5.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
