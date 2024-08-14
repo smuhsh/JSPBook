@@ -12,8 +12,8 @@
 	<table width = "300" border = "1">
 		<tr>
 			<th>아이디</th>
-			<th>비밀번호</th>
 			<th>이름</th>
+			<th>비밀번호</th>
 		</tr>
 		<%
 			ResultSet rs = null;
@@ -26,13 +26,13 @@
 				
 				while(rs.next()){
 					String id = rs.getString("id");
-					String passwd = rs.getString("passwd");
 					String name = rs.getString("name");
+					String passwd = rs.getString("passwd");
 		%>
 		<tr>
 			<td><%=id %></td>
-			<td><%=passwd %></td>
 			<td><%=name %></td>
+			<td><%=passwd %></td>
 		</tr>
 		<%
 				}
